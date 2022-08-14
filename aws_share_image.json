@@ -1,0 +1,15 @@
+{
+    "max_retries": 3,
+    "retry_sleep": 60,
+    "sleep_time":900,
+    "region":"us-east-1",
+    "arns":[
+        {"arn":"arn:aws:iam::265674847457:role/workspaces-admin","session_name":"265674847457-workspaces-admin"}
+    ],
+    "images":[
+        {"image_id":"?","bundles":["workspace-bundle"],"tags":[{"Key":"clave1","Value":"valor1"},{"Key":"clave2","Value":"valor2"}]},
+        {"image_id":"wsi-dz81pcfc9","bundles":["workspace-bundle","bundle3"],"tags":[{"Key":"clave1","Value":"valor1"},{"Key":"clave2","Value":"valor2"}]},
+        {"image_id":"wsi-bvw6t04kl","bundles":["workspace-bundle","workspace-bundletest"],"tags":[{"Key":"clave1","Value":"valor1"},{"Key":"clave2","Value":"valor2"}]},
+        {"image_id":"wsi-8ngw9vv4k","bundles":["workspace-bundle"],"tags":[{"Key":"clave1","Value":"valor1"},{"Key":"clave2","Value":"valor2"}]}
+    ]
+}
