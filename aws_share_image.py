@@ -1,6 +1,11 @@
 import boto3
 import time
 import json
+#Habilitar y utilizar al reestructurar como *lambda_handler*
+#import logging
+
+#logger = logging.getLogger()
+#logger.setLevel(logging.INFO)
 
 #Cargar Configuración desde JSON
 config_file = open('aws_share_image.json')
